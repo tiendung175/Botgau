@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hỏi Bot</title>
+    <style>
+        body {
+            background-color: pink;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        button {
+            background-color: #ff69b4;
+            color: white;
+            border: none;
+            padding: 20px 40px;
+            font-size: 20px;
+            border-radius: 10px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #ff1493;
+        }
+
+        footer {
+            position: absolute;
+            bottom: 10px;
+            font-size: 14px;
+            color: gray;
+        }
+    </style>
+</head>
+<body>
+    <button onclick="openChatGPT()">Hỏi Bot</button>
+
+    <footer>by Tiến Dũng</footer>
+
+    <script>
+        function openChatGPT() {
+            alert("Vui lòng đăng nhập tài khoản vào ChatGPT Nếu Chưa Đăng Nhập.");
+            window.location.href = "https://chat.openai.com/";
+        }
+    </script>
+</body>
+</html>
